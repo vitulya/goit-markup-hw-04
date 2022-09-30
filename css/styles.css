@@ -181,6 +181,7 @@ body{
 
 /* Герой */
 .hero{
+    margin: auto;
     max-width: 1600px;
     text-align: center;
     background-color: var(--background-hero);
@@ -371,6 +372,8 @@ margin-bottom: 30px;
     padding: 16px 31px;
     border: 1px solid var(--accent-grey-icon);
     border-radius: 4px;
+
+    cursor: pointer;
 } 
 
 .clients-item:hover {
